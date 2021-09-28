@@ -2,3 +2,15 @@ numpy
 matplotlib
 image
 panda
+
+jupyter_contrib_nbextensions
+scipy
+appmode
+
+
+rise
+
+jupyter-tabnine
+
+ipywidgets
+ipyevents

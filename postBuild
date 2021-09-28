@@ -1,0 +1,20 @@
+#!/bin/bash
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+
+jupyter nbextension enable collapsible_headings/main
+
+jupyter nbextension enable init_cell/main
+jupyter nbextension enable toggle_all_line_numbers/main
+jupyter nbextension enable runtools/main
+jupyter nbextension enable splitcell/splitcell
+jupyter nbextension enable highlighter/highlighter
+jupyter nbextension     enable --py --sys-prefix appmode
+jupyter serverextension enable --py --sys-prefix appmode
+
+jupyter nbextension enable varInspector/main
+
+jupyter nbextension install --py jupyter-tabnine
+jupyter nbextension enable --py jupyter_tabnine
+jupyter serverextension enable --py jupyter_tabnine
